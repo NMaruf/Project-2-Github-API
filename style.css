@@ -1,0 +1,109 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+    background-color: #C4C4C4;
+}
+
+#app {
+    width: 503px;
+    margin: auto;
+}
+
+input {
+    width: 503px;
+    margin-top: 54px;
+    height: 61px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+ul {
+    display: block;
+    margin: 0;
+    background-color: #E3E3E3;
+    width: 503px;
+    padding-left: 0px;
+}
+
+li.user-prev-name {
+    padding-left: 13px;
+    padding-bottom: 9px;
+    list-style: none;
+    border: 2px solid #000000;
+}
+
+li.user-repo-visible {
+    padding: 8px 16px;
+    list-style: none;
+    border: 1px solid #000000;
+}
+
+li:hover {
+    background-color: #65CDF9;
+}
+
+p.user-prev-name {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px;
+}
+
+p.user-prev {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px;
+}
+
+.container {
+    margin-top: 45px;
+}
+
+.user-repo-hidden {
+    display: none;
+}
+
+.user-repo-visible {
+    display: block;
+    background-color: #E27BEB;
+    height: 100px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.user-repo-visible:hover {
+    background-color: #E27BEB;
+}
+
+.close {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    position: relative;
+    left: 425px;
+    bottom: 62px;
+}
+
+.close:hover {
+    opacity: 50%;
+}
+
+.hidden {
+    display: none;
+}
+
